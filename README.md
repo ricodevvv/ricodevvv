@@ -1,70 +1,124 @@
-<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" height=""></img>
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%" alt="Divider"/>
 
-<a href=#><img src="contributions.svg"></a>
+<h1 align="center">Hi there, I'm <a href="https://github.com/ricodevvv">ricodev</a> 👋</h1>
+<h4 align="center">🛠️ Passionate developer, learner, and builder — welcome to my GitHub!</h4>
 
 <p align="center">
+  <a href="https://github.com/ricodevvv">
+    <img src="https://img.shields.io/github/followers/ricodevvv?label=Follow&style=for-the-badge&logo=github&color=0D1117">
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=ricodevvv&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views">
+  <img src="https://img.shields.io/badge/Discord-_vzqq-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Contact">
+</p>
 
-<h3 align="center">Hello, im <a href="https://github.com/ricodevvv">ricodev</a></h3>
-<h5 align="center">Here you can see about me and what i know.</h5>
-
-
+---
 
 ```java
 package me.ricodev.github;
 
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Github extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("Hello World");
+        getLogger().info("Hello World!");
+    }
+
+    @Override
+    public void onDisable() {
+        getLogger().info("Goodbye World!");
     }
 
     public String getContactInfo() {
-        return "Message me on Discord: _vzqq";
+        return "Discord: _vzqq";
     }
-    
+
     public int getAge() {
         return 17;
     }
+
+    @Override
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if (command.getName().equalsIgnoreCase("devinfo")) {
+            sender.sendMessage("Developer: " + getContactInfo());
+            sender.sendMessage("Age: " + getAge());
+            return true;
+        }
+        return false;
+    }
 }
-```
+````
+
+## 🚀 Ongoing Projects
+
+* **Minecraft Server Engineering**
+  Developing custom plugins and enhancing performance for the [Imanity Network](https://imanity.lol), with a focus on gameplay optimization and server scalability.
+
+* **Software Development & Exploration**
+  Building diverse side projects while deepening expertise in Python, Java, and emerging technologies. Continuously learning and refining software engineering principles.
+
+---
+
+## 🛠️ Technical Skills
+
+* **Programming Languages**
+  Python, Java, SQL
+
+* **Web Development**
+  HTML, CSS, React, and modern frontend practices
+
+* **Game Plugin Development**
+  Expertise in Minecraft server platforms including Spigot, Bukkit, and PaperMC
+
+* **Operating Systems & Security**
+  4+ years of hands-on experience with Linux-based systems (mostly Ubuntu) and basic firewall configurations
+
+* **Databases & Caching**
+  MongoDB, Redis
+
+* **Development Tools**
+  IntelliJ IDEA, Visual Studio Code
+
+---
+
+
+## 🎯 Goals
+
+* **Enhance Backend Expertise**
+  Deepen my knowledge of scalable backend systems.
+
+* **Advance Game Development Projects**
+  Continue developing innovative Minecraft plugins and explore other game engines.
+
+* **Expand Web Development Skills**
+  Strengthen frontend and full-stack capabilities with advanced JavaScript frameworks (e.g., Next.js, Vue) and state management tools.
+
+---
+
+## 🚀 Tech Stack & Tools
 
 <p align="center">
-  <a href="https://github.com/ricodevvv">
-    <img alt="followers" title="Github" src="https://img.shields.io/github/followers/ricodevvv?color=236ad3&style=for-the-badge&logo=github&label=Follow"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=ricodevvv&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="ricodevvv"/>
-</p>
- 
-## 🚀 What I Know/Use
-<p align="center">
-  <a href="https://github.com/ricodevvv">
-    <img src="https://skillicons.dev/icons?i=vscode,idea,python,java,mongodb,redis,mysql,discord,nodejs,discordjs,js,html,css,php,gmail,html3,docker,replit,powershell,typescript,debian,eclipse,photoshop,linux,instagram,dotnet,sqlite,github" alt="Skills">
-  </a>
+  <img src="https://skillicons.dev/icons?i=java,python,nodejs,ts,js,html,css,redis,mongodb,vscode,idea,replit,github,discord,discordjs" alt="Skills">
 </p>
 
 ---
 
-## 📊 GitHub Information
+## 🏆 Trophies
 
 <p align="center">
-  <a href="https://discord.gg/destroyed">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ricodevvv&theme=dark&langs_count=8&layout=compact" alt="Top Languages" />
-  </a>
+  <img src="https://github-profile-trophy.vercel.app/?username=ricodevvv&theme=darkhub&margin-w=15&no-frame=true" alt="GitHub Trophies">
 </p>
 
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ricodevvv&theme=darkhub&margin-w=15&no-frame=true" alt="Trophies" />
-  </a>
-</p>
+---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ricodevvv&show_icons=true&locale=en&theme=dark" alt="GitHub Stats" />
-</p>
+## 🤝 Let's Connect
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ricodevvv&theme=dark" alt="GitHub Streak" />
-</p>
+* 💬 **Discord**: `_vzqq`
+* 🌐 **GitHub**: [github.com/ricodevvv](https://github.com/ricodevvv)
+
+---
+
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%" alt="Divider"/>
