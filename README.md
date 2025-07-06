@@ -39,16 +39,6 @@ public class Github extends JavaPlugin {
     public int getAge() {
         return 17;
     }
-
-    @Override
-    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (command.getName().equalsIgnoreCase("devinfo")) {
-            sender.sendMessage("Developer: " + getContactInfo());
-            sender.sendMessage("Age: " + getAge());
-            return true;
-        }
-        return false;
-    }
 }
 ````
 
